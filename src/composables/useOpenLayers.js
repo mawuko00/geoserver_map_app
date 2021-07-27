@@ -6,11 +6,7 @@ import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
 import { TileWMS, Vector as VectorSource, OSM, TileJSON } from "ol/source";
 import { Icon, Style } from "ol/style";
 
-<<<<<<< HEAD
-const wmsBaseUrl = " http://17f91f34f23f.ngrok.io"; // "http://172.20.10.2"; // or http://localhost:8090";
-=======
-const wmsBaseUrl = "http://17f91f34f23f.ngrok.io"; // "http://172.20.10.2"; // or http://localhost:8090";
->>>>>>> b3e02b07027463cbb28d0d9a8b7ddf6699ea9be1
+const wmsBaseUrl = " http://95779876c412.ngrok.io"; // "http://172.20.10.2"; // or http://localhost:8090";
 
 export function useOpenLayers() {
   const iconFeature = ref(null);
